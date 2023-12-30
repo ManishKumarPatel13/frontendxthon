@@ -10,11 +10,6 @@
 background-position: center;
 background-size: cover;
 position: relative;
-<div class="search-bar">
-  <form action="/search"> <input type="text" name="query" placeholder="Search...">
-    <button type="submit">Search</button>
-  </form>
-</div>
 }
 nav{
     display: flex;
@@ -134,7 +129,7 @@ h1{
 }
 
 p{
-    color: #fff;
+    color: #141414;
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
@@ -240,36 +235,3 @@ h3{
 .fa-heart-o{
     color: #f44336; 
 }
-
-.search-bar {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    position: absolute;
-    float: right;
-    padding: 10px;
-    background-color: #f2f2f2; /* Light gray background */
-    border-radius: 5px;
-    margin-bottom: 20px;
-  }
-  .search-bar input[type="text"] {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-    outline: none; /* Remove default focus outline */
-  }
-  
-  .search-bar button {
-    background-color: rgba(242, 242, 242, 0.5)
-    color: #ccc;
-    border: none;
-    padding: 1px 5px;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .search-bar button:hover {
-    background-color: rgba(242, 242, 242, 0.5); 
-  }  
